@@ -14,7 +14,7 @@ let menuItems = document.getElementsByClassName("menuItem");
 
 // adding a for loop to cycle through the array
 for (let i = 0; i < menuItems.length; i++) {
-  menuItems[i].addEventListener("click", calcTotal);
+  menuItems[i].addEventListener("change", calcTotal);
 }
 
 //create function to calculate total cost of order
